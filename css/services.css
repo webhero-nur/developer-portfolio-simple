@@ -1,3 +1,9 @@
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
 strong {
     color: #535353;
 }
@@ -10,7 +16,7 @@ strong {
     text-align: center;
     font-weight: 700;
     font-size: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .services-container {

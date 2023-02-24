@@ -5,15 +5,14 @@
     padding: 0;
 }
 
-body {
-    background-color: #39ffeb65;
-
+.body {
+    background-image: url(../media/images/image-bg.png);
 }
 
 .body-container {
     display: flex;
     width: 1200px;
-    margin: auto;
+    margin: 5px auto 0px;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -70,16 +69,16 @@ body {
 
 .social-container a:hover {
     transform: scale(1.75);
-    color: blue;
+    color: #3366cc;
 }
 
 .social-title {
     font-weight: 600;
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-style: italic;
 }
 
 .main-container {
     width: 80%;
-    background-color: #99cd321c;
+    background-color: #c0f3f3;
 }

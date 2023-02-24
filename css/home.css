@@ -50,7 +50,8 @@
 }
 
 .about p:hover {
-    transform: scale(1.05);
+    margin-left: 15px;
+    transform: scale(1.15);
 }
 
 .about a {

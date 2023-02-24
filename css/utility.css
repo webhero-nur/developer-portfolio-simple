@@ -12,7 +12,8 @@
 .body-container {
     display: flex;
     width: 1200px;
-    margin: 5px auto 0px;
+    height: 98vh;
+    margin: 1vh auto 1vh;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -54,7 +55,7 @@
 
 .social-container {
     max-height: 10vh;
-    padding: 15px 20px;
+    padding: 13px 20px;
     background-color: #f4dee2;
     display: flex;
     justify-content: space-around;
@@ -81,4 +82,16 @@
 .main-container {
     width: 80%;
     background-color: #c0f3f3;
+    height: 98vh;
+}
+
+.btn-primary {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    padding: 18px 35px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FD6E0A;
 }

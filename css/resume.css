@@ -41,6 +41,10 @@
     color: #474747;
 }
 
+.hr {
+    display: none;
+}
+
 /* Resume Styles */
 .resume {
     padding: 35px;
@@ -51,6 +55,11 @@
     gap: 24px;
 }
 
+.my-education,
+.my-experience {
+    width: 50%;
+}
+
 .resume-item {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -59,8 +68,16 @@
 .resume .title {
     font-weight: 700;
     font-size: 25px;
-    color: #474747;
     margin-bottom: 10px;
+}
+
+.resume .title a {
+    color: #474747;
+    text-decoration: none;
+}
+
+.resume .title a:hover {
+    text-decoration: underline;
 }
 
 .resume .sub-title {
@@ -82,4 +99,19 @@
 
 .resume-button a {
     text-decoration: none;
+}
+
+@media screen and (min-width: 1370px) {
+    .about {
+        padding-top: 25px;
+        padding-bottom: 50px;
+    }
+
+    .about .section-title {
+        margin-bottom: 25px;
+    }
+
+    .hr {
+        display: block;
+    }
 }

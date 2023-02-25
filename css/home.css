@@ -66,3 +66,41 @@
 .dev-img img {
     width: 100%;
 }
+
+@media screen and (min-width: 1370px) {
+    .main-container {
+        flex-direction: column-reverse;
+    }
+
+    .short-intro,
+    .dev-img {
+        width: 100%;
+        align-items: center;
+    }
+
+    .dev-img {
+        width: 45%;
+        margin: 0px auto;
+    }
+
+    .intro-title {
+        display: flex;
+        align-items: center;
+    }
+
+    .intro-title h1 {
+        padding: 0px 5px;
+    }
+
+    .short-intro {
+        padding: 0;
+    }
+
+    .about p {
+        text-align: center;
+    }
+
+    .about p:hover {
+        margin-left: 0px;
+    }
+}
